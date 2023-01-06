@@ -1,15 +1,10 @@
-# vue3-vite4-dashboard
-开箱即用的 vue3 vite4 数据大屏模板
+# vue3-dashboard
 
-## 大屏适配方案：px2vw 横向自适应高度居中
-
-- 🚀 ScreenAdapter.vue 屏幕适配组件，需按照设计搞设置宽高样式
-- 💪 适配插件：主要配置 viewportWidth: 1600, // UI设计稿的宽度
-- 🔥 点击屏幕进入全屏模式
+优车大屏
 
 ## 特性
 
-- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 4](https://github.com/vitejs/vite) - 快！
+- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite) - 快！
 - 💪 [Typescript](https://www.typescriptlang.org/) - 当然！必不可少
 - 🎉 [Element Plus 开箱即用](https://github.com/element-plus/element-plus) - 基于 Vue.js 3 的强大 UI 库
 - 🔥 [Axios 配置和封装](https://github.com/axios/axios) - 基于 Promise 的 HTTP 请求库
@@ -73,5 +68,3 @@ pnpm serve
 pnpm build:prod 
 # pnpm build:test
 ```
-
-### 特别说明：项目基础模版来自 [vitecamp](https://github.com/nekobc1998923/vitecamp)

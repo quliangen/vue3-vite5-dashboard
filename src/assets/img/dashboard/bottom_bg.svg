@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="111px" viewBox="0 0 1600 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>底部装饰@2x</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1600" height="40"></rect>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="155.931604%" gradientTransform="translate(0.500000,0.500000),scale(0.025000,1.000000),rotate(90.000000),scale(1.000000,20.046154),translate(-0.500000,-0.500000)" id="radialGradient-3">
+            <stop stop-color="#414371" offset="0%"></stop>
+            <stop stop-color="#222442" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.012500,1.000000),rotate(90.000000),scale(1.000000,40.277639),translate(-0.500000,-0.000000)" id="radialGradient-4">
+            <stop stop-color="#5E6094" offset="0%"></stop>
+            <stop stop-color="#5E6094" stop-opacity="0.4" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="58.956991%" cy="0%" fx="58.956991%" fy="0%" r="1152.5857%" gradientTransform="translate(0.589570,0.000000),scale(0.012500,1.000000),rotate(90.000000),scale(1.000000,1.422021),translate(-0.589570,-0.000000)" id="radialGradient-5">
+            <stop stop-color="#8A8AAC" offset="0%"></stop>
+            <stop stop-color="#8A8AAC" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="0%" y1="48.8134761%" x2="100%" y2="51.1865239%" id="linearGradient-6">
+            <stop stop-color="#5F6096" offset="0%"></stop>
+            <stop stop-color="#5F6096" stop-opacity="0.15" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="二手车在拍车辆投屏" transform="translate(0.000000, -789.000000)">
+            <g id="底部装饰" transform="translate(0.000000, 790.000000)">
+                <g id="编组-12" transform="translate(0.000000, 70.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="蒙版"></g>
+                    <path d="M0,0 L1600,0 L1600,40 L1456.05551,40 C1452.10701,40 1448.24686,38.8312395 1444.96151,36.6410059 L1425.03849,23.3589941 C1421.75314,21.1687605 1417.89299,20 1413.94449,20 L186.061556,20 C182.109285,20 178.245617,21.1709921 174.958343,23.3651375 L155.077607,36.6348625 C151.790333,38.8290079 147.926664,40 143.974393,40 L0,40 L0,40 L0,0 Z" id="底部装饰" fill="url(#radialGradient-3)" mask="url(#mask-2)" transform="translate(800.000000, 20.000000) scale(1, -1) translate(-800.000000, -20.000000) "></path>
+                    <path d="M1600,21 L1456.05551,21 C1452.10701,21 1448.24686,19.8312395 1444.96151,17.6410059 L1425.03849,4.35899411 C1421.75314,2.16876055 1417.89299,1 1413.94449,1 L186.061556,1 C182.109285,1 178.245617,2.17099212 174.958343,4.36513747 L155.077607,17.6348625 C151.790333,19.8290079 147.926664,21 143.974393,21 L0,21" id="路径" stroke="url(#radialGradient-4)" stroke-width="2" mask="url(#mask-2)" transform="translate(800.000000, 11.000000) scale(1, -1) translate(-800.000000, -11.000000) "></path>
+                    <path d="M1600,21 L1456.05551,21 C1452.10701,21 1448.24686,19.8312395 1444.96151,17.6410059 L1425.03849,4.35899411 C1421.75314,2.16876055 1417.89299,1 1413.94449,1 L186.061556,1 C182.109285,1 178.245617,2.17099212 174.958343,4.36513747 L155.077607,17.6348625 C151.790333,19.8290079 147.926664,21 143.974393,21 L0,21" id="路径" stroke="url(#radialGradient-5)" stroke-width="2" mask="url(#mask-2)" transform="translate(800.000000, 11.000000) scale(1, -1) translate(-800.000000, -11.000000) "></path>
+                </g>
+                <g id="编组-14" transform="translate(56.000000, 0.000000)">
+                    <path d="M0,0 L195.363786,0 C200.281466,-9.03363242e-16 205.026767,1.81180657 208.693078,5.08926651 L263.306922,53.9107335 C266.973233,57.1881934 271.718534,59 276.636214,59 L383,59 L383,59" id="路径" stroke="url(#linearGradient-6)" stroke-width="2" transform="translate(191.500000, 29.500000) scale(-1, -1) translate(-191.500000, -29.500000) "></path>
+                    <rect id="矩形" fill="#5F6096" x="383" y="54" width="2" height="10"></rect>
+                </g>
+                <g id="编组-14备份-2" transform="translate(1351.500000, 32.000000) scale(-1, 1) translate(-1351.500000, -32.000000) translate(1159.000000, 0.000000)">
+                    <path d="M0,0 L195.363786,0 C200.281466,-9.03363242e-16 205.026767,1.81180657 208.693078,5.08926651 L263.306922,53.9107335 C266.973233,57.1881934 271.718534,59 276.636214,59 L383,59 L383,59" id="路径" stroke="url(#linearGradient-6)" stroke-width="2" transform="translate(191.500000, 29.500000) scale(-1, -1) translate(-191.500000, -29.500000) "></path>
+                    <rect id="矩形" fill="#5F6096" x="383" y="54" width="2" height="10"></rect>
+                </g>
+                <g id="编组-5" transform="translate(253.000000, 43.000000)" fill="#363761">
+                    <rect id="矩形" x="0" y="0" width="18" height="4"></rect>
+                    <rect id="矩形备份-13" x="24" y="0" width="18" height="4"></rect>
+                    <rect id="矩形备份-14" x="48" y="0" width="18" height="4"></rect>
+                    <rect id="矩形备份-15" x="72" y="0" width="18" height="4"></rect>
+                </g>
+                <text id="PHOTO" font-family="Arial-BoldMT, Arial MT" font-size="12" font-weight="bold" line-spacing="12" letter-spacing="1" fill="#494B77">
+                    <tspan x="1237" y="80">PHOTO</tspan>
+                </text>
+                <path d="M1540,40 L1540,50 L1538,50 L1538,40 L1540,40 Z M1534,40 L1534,50 L1532,50 L1532,40 L1534,40 Z M1528,40 L1528,50 L1526,50 L1526,40 L1528,40 Z M1522,40 L1522,50 L1520,50 L1520,40 L1522,40 Z M1516,40 L1516,50 L1514,50 L1514,40 L1516,40 Z M1510,40 L1510,50 L1508,50 L1508,40 L1510,40 Z M1504,40 L1504,50 L1502,50 L1502,40 L1504,40 Z M1498,40 L1498,50 L1496,50 L1496,40 L1498,40 Z M1492,40 L1492,50 L1490,50 L1490,40 L1492,40 Z M1474,40 L1484,40 L1484,50 L1474,40 Z" id="右下角装饰" fill="#3F4270"></path>
+            </g>
+        </g>
+    </g>
+</svg>

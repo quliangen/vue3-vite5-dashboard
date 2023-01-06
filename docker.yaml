@@ -1,0 +1,6 @@
+project: 'bigfrontend/infrastructure/base/fed-cd'
+ref: master
+file: 'templates/base.Dockerfile'
+type: 'web' # 指定具体的项目类型，不同类型构建命令不一样。可选项：web / uniapp-h5
+mode: 'history'
+application: 'spa'

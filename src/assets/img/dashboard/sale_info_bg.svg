@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1500px" height="44px" viewBox="0 0 1500 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>公告背景条@2x</title>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="1704.54545%" gradientTransform="translate(0.500000,0.500000),scale(0.029333,1.000000),scale(1.000000,0.268064),translate(-0.500000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#3D3F74" offset="0%"></stop>
+            <stop stop-color="#3D3F74" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-2" x="0" y="0" width="1500" height="44" rx="8"></rect>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="二手车在拍车辆投屏" transform="translate(-50.000000, -90.000000)">
+            <g id="公告条" transform="translate(50.000000, 90.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="公告背景条" fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

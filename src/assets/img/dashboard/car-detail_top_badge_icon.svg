@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="36px" viewBox="0 0 30 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>评级小对勾@2x</title>
+    <defs>
+        <linearGradient x1="59.1792451%" y1="10.2102014%" x2="67.7629561%" y2="97.9202179%" id="linearGradient-1">
+            <stop stop-color="#6E4936" offset="0%"></stop>
+            <stop stop-color="#6E4936" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="12.4444444%" y1="0%" x2="65.1770016%" y2="87.5497569%" id="linearGradient-2">
+            <stop stop-color="#FFE495" offset="0%"></stop>
+            <stop stop-color="#D2B354" offset="100%"></stop>
+        </linearGradient>
+        <path d="M3,0 L23,0 C24.6568542,-3.04359188e-16 26,1.34314575 26,3 L26,22.0805028 C26,23.2506557 25.3196258,24.3140189 24.2571745,24.804381 L14.2571745,29.4197656 C13.4594892,29.7879281 12.5405108,29.7879281 11.7428255,29.4197656 L1.74282547,24.804381 C0.680374205,24.3140189 3.03452679e-15,23.2506557 0,22.0805028 L0,3 C-2.02906125e-16,1.34314575 1.34314575,3.04359188e-16 3,0 Z" id="path-3"></path>
+        <filter x="-1.9%" y="-1.7%" width="103.8%" height="102.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.979283179   0 0 0 0 0.917132717  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M15,5.5 C15.7796961,5.5 16.4204487,6.09488808 16.4931334,6.85553999 L16.5,7 L16.5,16 C16.5,16.7796961 15.9051119,17.4204487 15.14446,17.4931334 L15,17.5 L10,17.5 C9.17157288,17.5 8.5,16.8284271 8.5,16 C8.5,15.2203039 9.09488808,14.5795513 9.85553999,14.5068666 L10,14.5 L13.5,14.5 L13.5,7 C13.5,6.22030388 14.0948881,5.57955132 14.85554,5.50686658 L15,5.5 Z" id="path-5"></path>
+        <filter x="-6.2%" y="-4.2%" width="125.0%" height="116.7%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.954065126   0 0 0 0 0.807073528  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="二手车在拍车辆投屏" transform="translate(-358.000000, -381.000000)">
+            <g id="车辆详情" transform="translate(50.000000, 154.000000)">
+                <g id="编组-19" transform="translate(30.000000, 227.000000)">
+                    <g id="评级小对勾" transform="translate(278.000000, 0.000000)">
+                        <path d="M4,5 L30,5 L30,28.0805028 C30,29.2506557 29.3196258,30.3140189 28.2571745,30.804381 L18.2571745,35.4197656 C17.4594892,35.7879281 16.5405108,35.7879281 15.7428255,35.4197656 L5.74282547,30.804381 C4.68037421,30.3140189 4,29.2506557 4,28.0805028 L4,5 L4,5 Z" id="矩形备份-18" fill="url(#linearGradient-1)"></path>
+                        <g id="矩形">
+                            <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        </g>
+                        <g id="路径" fill-rule="nonzero" transform="translate(12.500000, 11.500000) rotate(-315.000000) translate(-12.500000, -11.500000) ">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <use fill="#73503D" xlink:href="#path-5"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

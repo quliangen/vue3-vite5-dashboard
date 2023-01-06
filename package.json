@@ -1,0 +1,66 @@
+{
+  "name": "vue3-vite4-dashboard",
+  "version": "0.1.0",
+  "author": "quliangen",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vite",
+    "build:test": "vue-tsc --noEmit --skipLibCheck && vite build",
+    "build:prod": "vue-tsc --noEmit --skipLibCheck && vite build",
+    "lint": "eslint src",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@vueuse/core": "^8.9.4",
+    "axios": "^0.27.2",
+    "element-plus": "^2.2.28",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.28",
+    "prism-theme-vars": "^0.2.4",
+    "qrcode": "^1.5.1",
+    "terser": "^5.16.1",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.0",
+    "@commitlint/config-conventional": "^17.4.0",
+    "@iconify/json": "^2.2.3",
+    "@types/node": "^18.11.18",
+    "@types/nprogress": "^0.2.0",
+    "@types/svgo": "^2.6.4",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "@vitejs/plugin-legacy": "^2.3.1",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vitejs/plugin-vue-jsx": "2.0.0",
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.8.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "markdown-it-link-attributes": "^4.0.1",
+    "markdown-it-prism": "^2.3.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "prettier": "^2.8.1",
+    "sass": "^1.57.1",
+    "typescript": "^4.9.4",
+    "unplugin-auto-import": "^0.9.5",
+    "unplugin-icons": "^0.14.15",
+    "unplugin-vue-components": "^0.21.2",
+    "vite": "^4.0.4",
+    "vite-plugin-fonts": "^0.5.0",
+    "vite-svg-loader": "^3.6.0",
+    "vue-tsc": "^0.38.9"
+  },
+  "lint-staged": {
+    "*.{ts,js,vue}": [
+      "eslint"
+    ]
+  }
+}

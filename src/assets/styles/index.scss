@@ -1,0 +1,30 @@
+// 重置浏览器默认样式
+@import 'normalize.css/normalize.css';
+
+@import '@/assets/styles/nprogress.scss';
+
+// 字体
+@import './front.css';
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: #26273C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// 全局 element ui 样式
+.el-image__wrapper {
+  --el-fill-color-light: #3c3e76;
+  background: #3c3e76 no-repeat url('@/assets/img/dashboard/car-img_default_bg.svg') center;
+  .el-image__error {
+    display: none;
+    background-color: transparent;
+  }
+}
