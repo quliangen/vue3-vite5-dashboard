@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "serve": "vite",
-    "build:test": "vue-tsc --noEmit --skipLibCheck && vite build",
-    "build:prod": "vue-tsc --noEmit --skipLibCheck && vite build",
+    "build": "vue-tsc --noEmit --skipLibCheck && vite build",
     "lint": "eslint src",
     "preview": "vite preview",
     "prepare": "husky install"
