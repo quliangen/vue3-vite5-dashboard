@@ -33,6 +33,6 @@ onMounted(() => {
   // [background-color] [background-image] [background-repeat] [background-attachment] [background-position] / [background-size] [background-origin] [background-clip]
   background: url('@/assets/img/dashboard/top_bg.svg') no-repeat top center / 1600px 72px,
     url('../assets/img/dashboard/bottom_bg.svg') no-repeat center bottom / 100%;
-  background-color: #151c30;
+  background-color: #131124;
 }
 </style>
