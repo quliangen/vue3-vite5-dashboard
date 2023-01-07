@@ -24,6 +24,10 @@ onMounted(() => {
 
 <style lang="scss" scoped>
 .screen-adapter {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
   box-sizing: border-box;
   // 根据设计搞设置即可
   width: 1600px;
