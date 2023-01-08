@@ -12,6 +12,9 @@
   },
   "dependencies": {
     "@antv/g2": "5.0.0-beta.5",
+    "@antv/l7": "^2.13.1",
+    "@antv/l7-maps": "^2.13.1",
+    "@antv/l7-three": "^2.13.1",
     "@vueuse/core": "^8.9.4",
     "axios": "^0.27.2",
     "element-plus": "^2.2.28",
@@ -21,6 +24,7 @@
     "prism-theme-vars": "^0.2.4",
     "qrcode": "^1.5.1",
     "terser": "^5.16.1",
+    "three": "^0.148.0",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },

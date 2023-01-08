@@ -1,22 +1,22 @@
 <script setup lang="ts">
+// 示例为了方便使用 自定义hooks，业务可封装成组件。
 import { useBar, useRose } from './hooks/useChart';
+import { useMap } from './hooks/useMap';
 
 useBar();
 useRose();
+useMap();
 </script>
 
 <template>
   <div class="biz-wrap">
     <div class="biz-wrap-left">
-      <div>左</div>
       <div id="bar"></div>
     </div>
     <div class="biz-wrap-center">
-      <div>中</div>
-      <div>TODO: 地图</div>
+      <div id="map"></div>
     </div>
     <div class="biz-wrap-right">
-      <div>右</div>
       <div id="rose"></div>
       <div>博客二维码</div>
       <QrCodeImg src="https://quliangen.github.io/blog/" />
@@ -37,7 +37,11 @@ useRose();
   }
   &-center {
     flex: 2 0 auto;
-    padding: 10px;
+    position: relative;
+    #id {
+      width: 100%;
+      height: 100%;
+    }
   }
   &-right {
     flex: 1;
