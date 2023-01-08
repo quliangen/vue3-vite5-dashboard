@@ -1,10 +1,5 @@
-/*
- * @Author: 曲良恩
- * @Email：quliangen@hualala.com
- * @Date: 2023-01-08 22:25:55
- * @Description: 页面/组件/功能的描述
- * @FilePath: /vue3-vite4-dashboard/src/views/home/hooks/useMap.ts
- */
+// @ts-nocheck
+
 import { Scene, LineLayer, PointLayer } from '@antv/l7';
 import { GaodeMap } from '@antv/l7-maps';
 import { ThreeLayer, ThreeRender } from '@antv/l7-three';
