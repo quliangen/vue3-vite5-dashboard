@@ -5,19 +5,19 @@ const el = ref<HTMLElement | null>(null);
 const { isSupported, isFullscreen, toggle } = useFullscreen(el);
 provide('isFullscreen', isFullscreen);
 
-const handleEnter = () => {
-  toggle();
-};
-
 onMounted(() => {
   if (!isSupported) {
     ElMessage.warning('您的浏览器不支持全屏！');
+    return;
   }
+  useEventListener(document, 'keydown', (e) => {
+    if (e.key === 'Enter') toggle();
+  });
 });
 </script>
 
 <template>
-  <div ref="el" class="screen-adapter" @click="handleEnter">
+  <div ref="el" class="screen-adapter">
     <slot />
   </div>
 </template>

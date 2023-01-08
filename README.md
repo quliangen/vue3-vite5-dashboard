@@ -1,11 +1,13 @@
 # vue3-vite4-dashboard
-开箱即用的 vue3 vite4 数据大屏模板，[即刻预览](https://quliangen.github.io/vue3-vite4-dashboard/)
+开箱即用的 vue3 vite4 antv 数据大屏模板，[即刻预览](https://quliangen.github.io/vue3-vite4-dashboard/)
 
+![image](./src/assets/img/common/示例.png)
 ## 大屏适配方案：px2vw 横向自适应高度居中
 
 - 🚀 ScreenAdapter.vue 屏幕适配组件，需按照设计搞设置宽高样式
 - 💪 适配插件：主要配置 viewportWidth: 1600, // UI设计稿的宽度
-- 🔥 点击屏幕进入全屏模式
+- 🔥 Enter键 全屏模式切换
+- 💡 增加 antv G2图表 L7地图示例 
 
 ## 特性
 
