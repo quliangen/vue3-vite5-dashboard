@@ -1,10 +1,3 @@
-<!--
- * @Author: 曲良恩
- * @Email：quliangen@hualala.com
- * @Date: 2023-01-07 16:55:17
- * @Description: 页面/组件/功能的描述
- * @FilePath: /vue3-vite4-dashboard/src/views/home/Bizwrap.vue
--->
 <script setup lang="ts">
 // 示例为了方便使用 自定义hooks，业务可封装成组件。
 import { useBar, useRose } from './hooks/useChart';

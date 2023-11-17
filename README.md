@@ -42,7 +42,7 @@
 - [Axios](https://github.com/axios/axios) - 基于 Promise 的 HTTP 请求库
 - [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components) - 自动按需加载组件
 - [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) - 自动按需加载 API
-- [vite-plugin-fonts](https://github.com/stafyniaksacha/vite-plugin-fonts) - Vite 的字体加载器
+- [unplugin-fonts](https://github.com/cssninjaStudio/unplugin-fonts) - Vite 的字体加载器
 - [VueUse](https://github.com/antfu/vueuse) - 实用的 Composition API 工具合集
 - [vite-svg-loader](https://github.com/jpkleemans/vite-svg-loader) - 支持以 组件形式使用 SVG 图片
 

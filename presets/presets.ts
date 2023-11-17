@@ -7,7 +7,7 @@ import Components from 'unplugin-vue-components/vite';
 import Icons from 'unplugin-icons/vite';
 import IconsResolver from 'unplugin-icons/resolver';
 import { ElementPlusResolver, VueUseComponentsResolver } from 'unplugin-vue-components/resolvers';
-import ViteFonts from 'vite-plugin-fonts';
+import Unfonts from 'unplugin-fonts/vite';
 import { ConfigEnv } from 'vite';
 
 const defaultClasses = 'prose prose-sm m-auto text-left';
@@ -46,9 +46,9 @@ export default (env: ConfigEnv) => {
       compiler: 'vue3',
       autoInstall: true,
     }),
-    ViteFonts({
+    Unfonts({
       google: {
-        families: ['Open Sans', 'Montserrat', 'Fira Sans'],
+        families: ['Crimson Pro', 'Open Sans', 'Material+Icons'],
       },
     }),
   ];
