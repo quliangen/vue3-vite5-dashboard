@@ -11,7 +11,7 @@
 
 ## 特性
 
-- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 4](https://github.com/vitejs/vite) - 快！
+- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite5](https://github.com/vitejs/vite) - 快！
 - 💪 [Typescript](https://www.typescriptlang.org/) - 当然！必不可少
 - 🎉 [Element Plus 开箱即用](https://github.com/element-plus/element-plus) - 基于 Vue.js 3 的强大 UI 库
 - 🔥 [Axios 配置和封装](https://github.com/axios/axios) - 基于 Promise 的 HTTP 请求库
