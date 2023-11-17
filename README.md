@@ -1,5 +1,5 @@
-# vue3-vite4-dashboard
-开箱即用的 vue3 vite4 antv 数据大屏模板，[即刻预览](https://quliangen.github.io/vue3-vite4-dashboard/)
+# vue3-vite5-dashboard
+开箱即用的 vue3 vite5 antv 数据大屏模板，[即刻预览](https://quliangen.github.io/vue3-vite5-dashboard/)
 
 ![image](./src/assets/img/common/example.gif)
 ## 大屏适配方案：px2vw 横向自适应高度居中
